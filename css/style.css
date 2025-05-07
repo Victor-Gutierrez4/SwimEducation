@@ -1,8 +1,96 @@
 /* DEVELOPER: Victor Gutierrez, IS117-002, Spring 2025 */
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;  /* Sets a clean, modern font for the page */
+    background-color: #f4f4f4;      /* Light background color for the page */
+    color: #333;                    /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;                /* Better readability with appropriate line height */
 }
-img {
-  max-width: 100%;
-  height: auto;
+
+h1, h2, h3 {
+    color: #0056b3;  /* Blue color for headings */
+    margin-bottom: 10px;  /* Space below the heading */
+}
+
+h1 {
+    font-size: 2.5rem;   /* Large font size for main titles */
+}
+
+h2 {
+    font-size: 2rem;     /* Slightly smaller font size for subheadings */
+}
+
+h3 {
+    font-size: 1.5rem;   /* Smaller font size for smaller headings */
+}
+
+header, footer {
+    background-color: #333;  /* Dark background color for header and footer */
+    color: white;             /* White text color for header and footer */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main Content Layout */
+main {
+    max-width: 1200px;         /* Limits the width of the content */
+    margin: 20px auto;         /* Centers the content */
+    padding: 20px;
+    background-color: white;   /* White background for content area */
+    border-radius: 8px;        /* Rounded corners for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;        /* Adds space between sections */
+}
+
+ul {
+    list-style-type: disc;      /* Bullet points for lists */
+    margin-left: 20px;          /* Indentation for lists */
+}
+
+/* Links Styling */
+a {
+    color: #0056b3;             /* Blue color for links */
+    text-decoration: none;      /* Removes underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Footer Styles */
+footer {
+    font-size: 0.9rem;  /* Slightly smaller font size for footer text */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;  /* Adjusts text size for smaller screens */
+    }
+
+    header, footer {
+        padding: 15px 0;  /* Reduces padding for header and footer */
+    }
+
+    main {
+        padding: 10px;    /* Reduces padding for main content */
+    }
+
+    h1 {
+        font-size: 2rem;  /* Adjusts heading size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjusts subheading size for smaller screens */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Adjusts smaller headings for smaller screens */
+    }
 }
