@@ -1,86 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Swimming Education Hub</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+<!-- Main content -->
+<div class="container mt-5">
+  <h1>Welcome to SwimEd</h1>
+  <p>This website is dedicated to helping people of all levels learn about swimming, techniques, safety, and training.</p>
 
-  <!-- Main Content -->
-  <main class="container py-5">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
 
-      <!-- Strokes Card -->
-      <div class="col">
-        <a href="strokes.html" class="text-decoration-none text-dark">
-          <div class="card h-100">
-            <img src="images/stroke.jpg" class="card-img-top" alt="Swimming Strokes">
-            <div class="card-body">
-              <h5 class="card-title">Swimming Strokes</h5>
-              <p class="card-text">Learn about freestyle, backstroke, breaststroke, and butterfly techniques.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Training Card with Two Links -->
-      <div class="col">
+    <!-- Strokes Card -->
+    <div class="col">
+      <a href="swimming-strokes.html" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="images/training.jpg" class="card-img-top" alt="Training Workouts">
+          <img src="images/pool-lane.jpg" class="card-img-top" alt="Swimming Strokes">
           <div class="card-body">
-            <h5 class="card-title">Training & Workouts</h5>
-            <p class="card-text">Get structured routines for both beginners and advanced swimmers.</p>
-            <a href="beginner.html" class="btn btn-sm btn-primary me-2 mt-2">Beginner</a>
-            <a href="advanced.html" class="btn btn-sm btn-secondary mt-2">Advanced</a>
+            <h5 class="card-title">Swimming Strokes</h5>
+            <p class="card-text">Explore freestyle, backstroke, breaststroke, and butterfly techniques.</p>
           </div>
         </div>
-      </div>
-
-      <!-- Competitions Card -->
-      <div class="col">
-        <a href="competitions.html" class="text-decoration-none text-dark">
-          <div class="card h-100">
-            <img src="images/competitions.jpg" class="card-img-top" alt="Competitions">
-            <div class="card-body">
-              <h5 class="card-title">Competitions</h5>
-              <p class="card-text">Explore race formats, strategies, and tips for competitive swimming.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Water Safety Card -->
-      <div class="col">
-        <a href="safety.html" class="text-decoration-none text-dark">
-          <div class="card h-100">
-            <img src="images/safety.jpg" class="card-img-top" alt="Water Safety">
-            <div class="card-body">
-              <h5 class="card-title">Water Safety</h5>
-              <p class="card-text">Understand essential safety practices to stay protected in the water.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Contact Card -->
-      <div class="col">
-        <a href="contact.html" class="text-decoration-none text-dark">
-          <div class="card h-100">
-            <img src="images/contact.jpg" class="card-img-top" alt="Contact Us">
-            <div class="card-body">
-              <h5 class="card-title">Contact</h5>
-              <p class="card-text">Reach out with questions, feedback, or to join our swimming community.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
+      </a>
     </div>
-  </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    <!-- Training Card with Two Buttons -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/training.jpg" class="card-img-top" alt="Training">
+        <div class="card-body">
+          <h5 class="card-title">Training Programs</h5>
+          <p class="card-text">Beginner and advanced plans to build your swimming skills and endurance.</p>
+          <a href="beginner.html" class="btn btn-primary btn-sm me-2">Beginner</a>
+          <a href="advanced.html" class="btn btn-secondary btn-sm">Advanced</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Competitions Card -->
+    <div class="col">
+      <a href="competitions.html" class="text-decoration-none text-dark">
+        <div class="card h-100">
+          <img src="images/competitions.jpg" class="card-img-top" alt="Competitions">
+          <div class="card-body">
+            <h5 class="card-title">Competitions</h5>
+            <p class="card-text">Learn about local, national, and international swim competitions.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Water Safety Card -->
+    <div class="col">
+      <a href="water-safety.html" class="text-decoration-none text-dark">
+        <div class="card h-100">
+          <img src="images/water-safety.jpg" class="card-img-top" alt="Water Safety">
+          <div class="card-body">
+            <h5 class="card-title">Water Safety</h5>
+            <p class="card-text">Essential tips and practices to stay safe in and around the water.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Contact Card -->
+    <div class="col">
+      <a href="contact.html" class="text-decoration-none text-dark">
+        <div class="card h-100">
+          <img src="images/contact.jpg" class="card-img-top" alt="Contact Us">
+          <div class="card-body">
+            <h5 class="card-title">Contact Us</h5>
+            <p class="card-text">Have questions or feedback? Reach out to our team directly.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</div>
