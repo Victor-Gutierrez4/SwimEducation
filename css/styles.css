@@ -99,7 +99,15 @@ a:hover {
 footer {
     font-size: 0.9rem;
 }
-
+.home-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     body {
