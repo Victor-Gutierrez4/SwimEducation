@@ -1,65 +1,86 @@
-<!--DEVELOPER Victor Gutierrez, IS117-002, Spring 2025 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Swimming Education</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swimming Education Hub</title>
+  <link rel="stylesheet" href="css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-  
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">SwimEd</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="swimming-strokes.html">Strokes</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Training</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="beginner.html">Beginner</a></li>
-            <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="competitions.html">Competitions</a></li>
-        <li class="nav-item"><a class="nav-link" href="water-safety.html">Water Safety</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  <!-- Main Content -->
+  <main class="container py-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
-<!-- Main content -->
-<div class="container mt-5">
-  <h1>Welcome to SwimEd</h1>
-  <p>This website is dedicated to helping people of all levels learn about swimming, techniques, safety, and training.</p>
+      <!-- Strokes Card -->
+      <div class="col">
+        <a href="strokes.html" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="images/stroke.jpg" class="card-img-top" alt="Swimming Strokes">
+            <div class="card-body">
+              <h5 class="card-title">Swimming Strokes</h5>
+              <p class="card-text">Learn about freestyle, backstroke, breaststroke, and butterfly techniques.</p>
+            </div>
+          </div>
+        </a>
+      </div>
 
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="images/pool-lane.jpg" class="card-img-top" alt="Swimming Strokes">
-        <div class="card-body">
-          <h5 class="card-title">Learn the Strokes</h5>
-          <p class="card-text">Explore freestyle, backstroke, breaststroke, and butterfly.</p>
+      <!-- Training Card with Two Links -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/training.jpg" class="card-img-top" alt="Training Workouts">
+          <div class="card-body">
+            <h5 class="card-title">Training & Workouts</h5>
+            <p class="card-text">Get structured routines for both beginners and advanced swimmers.</p>
+            <a href="beginner.html" class="btn btn-sm btn-primary me-2 mt-2">Beginner</a>
+            <a href="advanced.html" class="btn btn-sm btn-secondary mt-2">Advanced</a>
+          </div>
         </div>
       </div>
+
+      <!-- Competitions Card -->
+      <div class="col">
+        <a href="competitions.html" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="images/competitions.jpg" class="card-img-top" alt="Competitions">
+            <div class="card-body">
+              <h5 class="card-title">Competitions</h5>
+              <p class="card-text">Explore race formats, strategies, and tips for competitive swimming.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Water Safety Card -->
+      <div class="col">
+        <a href="safety.html" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="images/safety.jpg" class="card-img-top" alt="Water Safety">
+            <div class="card-body">
+              <h5 class="card-title">Water Safety</h5>
+              <p class="card-text">Understand essential safety practices to stay protected in the water.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Contact Card -->
+      <div class="col">
+        <a href="contact.html" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="images/contact.jpg" class="card-img-top" alt="Contact Us">
+            <div class="card-body">
+              <h5 class="card-title">Contact</h5>
+              <p class="card-text">Reach out with questions, feedback, or to join our swimming community.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
     </div>
-    <!-- Add more cards -->
-  </div>
-</div>
+  </main>
 
-<!-- Footer -->
-<footer class="bg-light text-center p-4 mt-5">
-  <p>&copy; 2025 SwimEd | <a href="#">Terms</a> | <a href="#">Privacy</a></p>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
