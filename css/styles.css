@@ -1,96 +1,133 @@
 /* DEVELOPER: Victor Gutierrez, IS117-002, Spring 2025 */
+
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;  /* Sets a clean, modern font for the page */
-    background-color: #f4f4f4;      /* Light background color for the page */
-    color: #333;                    /* Dark text color for readability */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
-    line-height: 1.6;                /* Better readability with appropriate line height */
+    line-height: 1.6;
 }
 
 h1, h2, h3 {
-    color: #0056b3;  /* Blue color for headings */
-    margin-bottom: 10px;  /* Space below the heading */
+    color: #0056b3;
+    margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2.5rem;   /* Large font size for main titles */
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2rem;     /* Slightly smaller font size for subheadings */
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem;   /* Smaller font size for smaller headings */
+    font-size: 1.5rem;
 }
 
+/* Navigation Bar Styles */
+nav {
+    background-color: #0077b6;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header and Footer */
 header, footer {
-    background-color: #333;  /* Dark background color for header and footer */
-    color: white;             /* White text color for header and footer */
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 20px 0;
 }
 
+header p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
 /* Main Content Layout */
 main {
-    max-width: 1200px;         /* Limits the width of the content */
-    margin: 20px auto;         /* Centers the content */
+    max-width: 1200px;
+    margin: 20px auto;
     padding: 20px;
-    background-color: white;   /* White background for content area */
-    border-radius: 8px;        /* Rounded corners for content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Section Styling */
 section {
-    margin-bottom: 30px;        /* Adds space between sections */
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 119, 182, 0.1);
 }
 
 ul {
-    list-style-type: disc;      /* Bullet points for lists */
-    margin-left: 20px;          /* Indentation for lists */
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 /* Links Styling */
 a {
-    color: #0056b3;             /* Blue color for links */
-    text-decoration: none;      /* Removes underline from links */
+    color: #0056b3;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Adds underline on hover */
+    text-decoration: underline;
 }
 
-/* Footer Styles */
+/* Footer */
 footer {
-    font-size: 0.9rem;  /* Slightly smaller font size for footer text */
+    font-size: 0.9rem;
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     body {
-        font-size: 14px;  /* Adjusts text size for smaller screens */
+        font-size: 14px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
     }
 
     header, footer {
-        padding: 15px 0;  /* Reduces padding for header and footer */
+        padding: 15px 0;
     }
 
     main {
-        padding: 10px;    /* Reduces padding for main content */
+        padding: 10px;
     }
 
     h1 {
-        font-size: 2rem;  /* Adjusts heading size for smaller screens */
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1.5rem; /* Adjusts subheading size for smaller screens */
+        font-size: 1.5rem;
     }
 
     h3 {
-        font-size: 1.2rem; /* Adjusts smaller headings for smaller screens */
+        font-size: 1.2rem;
     }
 }
