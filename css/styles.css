@@ -12,6 +12,12 @@ body {
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+img.img-fluid {
+  max-width: 500px;  /* Adjust the max width as needed */
+  height: auto;      /* Maintain aspect ratio */
+}
+
 .stroke-img {
      width: 100%;
     max-width: 400px;
