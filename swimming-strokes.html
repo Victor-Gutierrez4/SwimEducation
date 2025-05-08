@@ -4,9 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Advanced Workouts</title>
+  <title>Swimming Strokes - Swim Education</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
   <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -20,7 +26,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="swimming-strokes.html">Strokes</a></li>
+        <li class="nav-item"><a class="nav-link active" href="swimming-strokes.html">Strokes</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Training</a>
           <ul class="dropdown-menu">
@@ -36,71 +42,45 @@
   </div>
 </nav>
 
-<!-- Banner -->
-<div class="container-fluid bg-primary text-white text-center py-5">
-  <h1 class="display-4">Advanced Workouts</h1>
-  <p class="lead">Challenging drills and high-intensity training for competitive swimmers</p>
-</div>
+<!-- Header -->
+<header class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1 class="display-4">Swimming Strokes</h1>
+    <p class="lead">Explore the four main competitive strokes and their techniques.</p>
+  </div>
+</header>
 
-<!-- Content -->
+<!-- Main Content -->
 <div class="container my-5">
-  <h2 class="mb-4">Training Techniques</h2>
-  <p>Click on a drill title below to reveal details and learn how to perform each one effectively.</p>
 
-  <!-- Workout Sections -->
-  <div class="workout-section">
-    <div class="workout-header" data-bs-toggle="collapse" data-bs-target="#drill1">
-      Endurance Sets <i class="bi bi-chevron-down"></i>
-    </div>
-    <div id="drill1" class="collapse workout-description">
-      Swim 3x800m freestyle with minimal rest. Focus on steady breathing and pace to build endurance over distance.
-    </div>
-  </div>
+  <!-- Freestyle -->
+  <section class="mb-5">
+    <h2 class="mb-3">Freestyle</h2>
+    <img src="images/freestyle.jpg" alt="Freestyle Stroke" class="img-fluid mb-3 rounded" />
+    <p>Freestyle is the fastest and most commonly used stroke in competitive swimming. It involves alternating arm movements and a flutter kick, keeping the body streamlined. Swimmers turn their head to the side to breathe without breaking rhythm. This stroke emphasizes speed, efficiency, and endurance.</p>
+  </section>
 
-  <div class="workout-section">
-    <div class="workout-header" data-bs-toggle="collapse" data-bs-target="#drill2">
-      Paddle Drills <i class="bi bi-chevron-down"></i>
-    </div>
-    <div id="drill2" class="collapse workout-description">
-      Use hand paddles during 5x100m sets. Emphasize a strong, smooth pull to build power and improve stroke technique.
-    </div>
-  </div>
+  <!-- Breaststroke -->
+  <section class="mb-5">
+    <h2 class="mb-3">Breaststroke</h2>
+    <img src="images/breaststroke.jpg" alt="Breaststroke" class="img-fluid mb-3 rounded" />
+    <p>Breaststroke features simultaneous arm and leg movements with a glide in between. The kick resembles a frog motion, pushing water backward to propel forward. It's slower than freestyle but requires strong timing and coordination. This stroke is often favored by beginners due to its natural breathing pattern.</p>
+  </section>
 
-  <div class="workout-section">
-    <div class="workout-header" data-bs-toggle="collapse" data-bs-target="#drill3">
-      Kickboard Pyramid <i class="bi bi-chevron-down"></i>
-    </div>
-    <div id="drill3" class="collapse workout-description">
-      Complete 25m, 50m, 75m, 100m kicks with a board, then work your way back down. Great for building leg strength.
-    </div>
-  </div>
+  <!-- Backstroke -->
+  <section class="mb-5">
+    <h2 class="mb-3">Backstroke</h2>
+    <img src="images/backstroke.jpg" alt="Backstroke" class="img-fluid mb-3 rounded" />
+    <p>Backstroke is the only competitive stroke swum on the back. It uses alternating arm movements and a steady flutter kick, similar to freestyle. Swimmers must maintain a straight path using ceiling or lane references. This stroke allows for constant breathing but requires balance and body control.</p>
+  </section>
 
-  <div class="workout-section">
-    <div class="workout-header" data-bs-toggle="collapse" data-bs-target="#drill4">
-      Broken 200s <i class="bi bi-chevron-down"></i>
-    </div>
-    <div id="drill4" class="collapse workout-description">
-      Swim 4x50m with 10 seconds rest between. Focus on holding consistent or descending splits for endurance pacing.
-    </div>
-  </div>
+  <!-- Butterfly -->
+  <section class="mb-5">
+    <h2 class="mb-3">Butterfly</h2>
+    <img src="images/butterfly.jpg" alt="Butterfly Stroke" class="img-fluid mb-3 rounded" />
+    <p>Butterfly is a powerful and demanding stroke that involves symmetrical arm movements and a dolphin-like kick. Timing is crucial as both arms recover simultaneously while the legs generate momentum. This stroke is visually striking and requires significant strength and technique. Though challenging, it builds overall swimming power and endurance.</p>
+  </section>
 
-  <div class="workout-section">
-    <div class="workout-header" data-bs-toggle="collapse" data-bs-target="#drill5">
-      Sprint Intervals with Fins <i class="bi bi-chevron-down"></i>
-    </div>
-    <div id="drill5" class="collapse workout-description">
-      Do 8x50m sprints using fins. Rest 20 seconds between reps. Builds explosive speed and enhances kick efficiency.
-    </div>
-  </div>
-
-  <!-- Tips Section -->
-  <h2 class="mt-5">Tips for Advanced Swimmers</h2>
-  <ul>
-    <li>Use swim tools like paddles and snorkels to isolate and strengthen techniques.</li>
-    <li>Track split times to monitor pacing and performance improvements.</li>
-    <li>Incorporate dryland workouts for strength and flexibility.</li>
-    <li>Hydrate and stretch well before and after intense sets.</li>
-  </ul>
 </div>
 
 <!-- Footer -->
@@ -108,6 +88,7 @@
   <p>&copy; 2025 SwimEd | <a href="#">Terms</a> | <a href="#">Privacy</a></p>
 </footer>
 
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
