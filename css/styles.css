@@ -12,6 +12,15 @@ body {
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.stroke-img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
 .workout-section {
       border-bottom: 1px solid #ddd;
       padding: 1rem 0;
