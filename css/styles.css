@@ -13,13 +13,13 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .stroke-img {
-  width: 100%;
-  max-width: 500px;
-  height: 300px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-  border-radius: 8px;
+     width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .workout-section {
       border-bottom: 1px solid #ddd;
