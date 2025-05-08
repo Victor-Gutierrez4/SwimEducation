@@ -12,7 +12,26 @@ body {
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
+.workout-section {
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+    }
+    .workout-header {
+      font-size: 1.25rem;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: color 0.3s;
+    }
+    .workout-header:hover {
+      color: #0d6efd;
+    }
+    .workout-description {
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+    }
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
